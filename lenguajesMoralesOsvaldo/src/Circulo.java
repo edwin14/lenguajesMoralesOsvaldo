@@ -1,6 +1,5 @@
-
 /* @author Edwin Osvaldo Morales Gomez*/
-
+//Muy bien edwin!!!
 public class Circulo {
  float radio=-5;
     
