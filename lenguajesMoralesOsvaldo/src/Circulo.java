@@ -2,14 +2,14 @@
 /* @author Edwin Osvaldo Morales Gomez*/
 
 public class Circulo {
- float radio=-5;
-    
-    {   
-    if (radio<0)
-            System.out.println("No se puede introducir numeros negativos para el radio");
-        
-            else 
-            System.out.println(radio);
+ private float radio;
 
-}   
+    public float getRadio() {
+        return radio;
+    }
+
+    public void setRadio(float radio) {
+        if(radio<0)radio=-radio;
+        this.radio = radio;
+    }
 }

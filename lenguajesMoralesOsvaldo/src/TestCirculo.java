@@ -5,9 +5,12 @@ public class TestCirculo {
 
     
     public static void main(String[] args) {
-     Circulo c= new Circulo();
-   
-        System.out.println(c.radio);   
+     //Creamos un Circulo
+        Circulo c=new Circulo();
+        c.setRadio(20);
+        //Imprimiendo el valor del radio probaremos que IMPIDIÓ meter valores negativos
+        System.out.println(c.getRadio());
+        
     }
     
 }
