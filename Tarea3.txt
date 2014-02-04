@@ -1,0 +1,99 @@
+Ejercicio 1: La salida es cero por que el constructor numerico lo da por defaul
+
+public class Test{
+bolean z;
+int x;
+String y;
+}
+
+
+public class Main{
+public static void main(String x[])}
+	Test algo=new Test();
+	System.out.println(digo.x);
+  }
+}
+
+
+Ejercicio 2: Si compila, es lo mismo si pones el constructor por que por defecto el programa lo crea 
+
+public class Test{
+ public Test(){}
+}
+
+Ejercicio 3: No compila, por que no se puede aplicar en la clase
+
+public class Test{
+ Test();
+}
+
+Ejercicio 4: Si compila. porque void es un metodo y el programa detecta a Test como constructor por defecto
+
+public class Test{
+ public void Test(){}
+}
+
+Ejercicio 5: Si compila, porque el constructor valdra 5
+
+public class Test{
+ public Test(){
+ int y=5
+ }
+}
+
+Ejercicio 5.1: No compila,porque al declararlo lo estamos haciendo dentro del constructor y este no le asignara ningun valor
+
+public class Test{
+ public Test(){
+ int y;
+ System.out.println(y);
+ }
+}
+
+Ejercicio 6: Si compila,porque al declarar lo estamos haciendo fuera del constructor, lo cual a "y" le asigan un valor de 0 por defecto
+
+public class Test{
+ int y;
+  public Test(){
+  System.out.println(y);
+  }
+}
+
+Ejercicio 7: error por el static ya que si compila pero no se ejecuta
+public class Test{
+ int x;
+}
+
+public class Main{
+public static void main(String w[])}
+	int x;
+	Test s=new Test();
+	System.out.println(digo.x);
+  }
+}
+
+Ejercicio 8: No compila,porque la "x" declarada dentro del main no tiene ningun valor 
+public class Test{
+ int x;
+}
+
+public class Main{
+  int x;
+public static void main(String w[])}
+	Test s=new Test();
+	System.out.println(digo.x);
+  }
+}
+
+Ejercicio 9: si compila,porque a la "x" le estas declarando un valor de 5 
+public class Test{
+ int x;
+}
+
+public class Main{
+public static void main(String w[])}
+	int x=5;
+	Test s=new Test();
+	System.out.println(digo.x);
+  }
+}
