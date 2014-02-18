@@ -7,6 +7,9 @@ package Herencia;
 
 public class CuentaDebito extends Cuenta{
     
+    public void CrearCuenta(){
+    System.out.println("Cuenta de Debito Creada con Exito");  
+    }
 }
     
 
