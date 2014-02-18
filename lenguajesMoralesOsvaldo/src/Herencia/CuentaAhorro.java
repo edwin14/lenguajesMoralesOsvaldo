@@ -4,6 +4,6 @@
 package Herencia;
 
 
-public class CuentaAhorro {
+public class CuentaAhorro extends Cuenta{
     
 }

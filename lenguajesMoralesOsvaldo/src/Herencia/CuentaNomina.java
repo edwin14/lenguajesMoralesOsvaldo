@@ -4,6 +4,6 @@
 package Herencia;
 
 
-public class CuentaNomina {
+public class CuentaNomina extends Cuenta {
     
 }

@@ -1,10 +1,11 @@
 
-//Hereda de la super clase
+//Hereda de la super clase 
+//Paso 2.- Se le agrega el extends Cuenta(nombre de la super clase)
 
 package Herencia;
 
 
-public class CuentaDebito {
+public class CuentaDebito extends Cuenta{
     
 }
     
