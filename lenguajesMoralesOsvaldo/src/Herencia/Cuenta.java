@@ -5,6 +5,7 @@ package Herencia;
 
 
 public class Cuenta {
+    //Aqui se encuentran todos los metodos
     private int id;
     private String nombre;
     private float saldo;
@@ -31,5 +32,10 @@ public class Cuenta {
 
     public void setSaldo(float saldo) {
         this.saldo = saldo;
+    }
+    
+    
+    public void CrearCuenta(){
+    System.out.println("Cuenta Creada con Exito");  
     }
 }

@@ -11,6 +11,7 @@ public class ProbarCuentas {
        c1.setId(1);
        c1.setNombre("Juan");
        c1.setSaldo(6000);
+       c1.CrearCuenta();
     }
     
 }
