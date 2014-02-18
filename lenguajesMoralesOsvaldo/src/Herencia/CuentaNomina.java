@@ -6,7 +6,7 @@ package Herencia;
 
 public class CuentaNomina extends Cuenta {
     
-    public void CrearCuenta(){
+    public void CrearCuentanomina(){
     System.out.println("Cuenta de Nomina Creada con Exito");  
     }
 }
