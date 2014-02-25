@@ -16,12 +16,7 @@ public class Usuario {
         return edad;
     }
 
-    public void setEdad(int edad) {
-        if(edad>0 && edad<18){
-            System.out.println("Este usuario aun no es mayor de edad");
-       
-        }
-   
+    public void setEdad(int edad) throws EdadNegativaException {           
         this.edad = edad;
     }
 
