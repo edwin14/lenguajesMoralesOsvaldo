@@ -4,7 +4,7 @@
 package Herencia;
 
 
-public class Cuenta {
+public abstract class Cuenta {
     //Aqui se encuentran todos los metodos
     private int id;
     private String nombre;
@@ -35,7 +35,5 @@ public class Cuenta {
     }
     
     
-    public void CrearCuenta(){
-    System.out.println("Cuenta Creada con Exito");  
-    }
+    public abstract void CrearCuenta();
 }

@@ -6,13 +6,20 @@ package Herencia;
 public class ProbarCuentas {
 
     
-    public static void main(String[] args) {
-       CuentaDebito c1=new CuentaDebito();
-       
-       c1.setId(1);
-       c1.setNombre("Juan");
-       c1.setSaldo(6000);
-       c1.CrearCuenta();
-    }
+    public static void main(String args[]){
     
+       Cuenta []cuentas=new Cuenta[6];
+      cuentas[0]=new CuentaAhorro();
+      cuentas[1]=new CuentaDebito();
+      cuentas[2]=new CuentaNomina();
+      cuentas[3]=new CuentaAhorro();
+      cuentas[4]=new CuentaNomina();
+      cuentas[5]=new CuentaDebito();
+
+      for(Cuenta c:cuentas){
+          c.CrearCuenta();
+      }
+    
+   }
+
 }
