@@ -9,7 +9,7 @@ public class ProbarUsuario {
         Usuario edwin =new Usuario();   
         edwin.setNombre("Edwin");
         System.out.println("Esto debe salir siempre");
-        edwin.setEdad(12);
+        edwin.setEdad(18);
         System.out.println("Aceptado!! eres mayor de edad");
     }
     
