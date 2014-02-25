@@ -16,7 +16,8 @@ public class Usuario {
         return edad;
     }
 
-    public void setEdad(int edad) throws EdadNegativaException {           
+    public void setEdad(int edad) throws EdadNegativaException {
+        Validaciones.validarEdad(edad);
         this.edad = edad;
     }
 
