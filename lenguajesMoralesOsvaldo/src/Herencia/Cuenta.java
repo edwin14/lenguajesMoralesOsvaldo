@@ -30,7 +30,8 @@ public abstract class Cuenta {
         return saldo;
     }
 
-    public void setSaldo(float saldo) {
+    public void setSaldo(float saldo)throws SinFondosException {
+        Validacion.validarSaldo(saldo);
         this.saldo = saldo;
     }
     
