@@ -15,13 +15,11 @@ public class ProbarCuentas {
       cuentas[3]=new CuentaAhorro();
       cuentas[4]=new CuentaNomina();
       cuentas[5]=new CuentaDebito();
-      
-      
 
       for(Cuenta c:cuentas){
           c.CrearCuenta();
       }
-    
+        
    }
 
 }
