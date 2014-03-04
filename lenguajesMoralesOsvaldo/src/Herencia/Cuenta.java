@@ -6,7 +6,8 @@ package Herencia;
 
 public abstract class Cuenta {
     
-    public Cuenta(String nombre, float saldo) {
+    public Cuenta(String nombre, float saldo) throws SinFondosException{
+       Validacion.validarSaldo(saldo);
         this.nombre = nombre;
         this.saldo = saldo;
     }

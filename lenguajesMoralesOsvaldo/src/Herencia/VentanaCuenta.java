@@ -100,6 +100,7 @@ public class VentanaCuenta extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void botonCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCalcularActionPerformed
+     // para crear un usuario en el text y que aparesca en el menseje cuando le debemos clic boton 
         
      CuentaAhorro c=new CuentaAhorro(textoNombre.getText(), Float.parseFloat(textoSaldo.getText()));
      etiquetaResultado.setText(c.toString());
