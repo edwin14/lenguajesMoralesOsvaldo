@@ -20,7 +20,7 @@ public abstract class Cuenta {
   
     
     public String toString(){
-        return "usuario " +nombre+ " cuenta con saldo " +saldo;
+        return "Usuario: " +nombre+ " Cuenta con Saldo: " +saldo;
         
     }
     
