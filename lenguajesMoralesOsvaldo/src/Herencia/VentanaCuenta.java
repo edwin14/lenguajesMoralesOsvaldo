@@ -1,20 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package Herencia;
 
-/**
- *
- * @author T107
- */
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class VentanaCuenta extends javax.swing.JFrame {
 
-    /**
-     * Creates new form VentanaCuenta
-     */
+    
     public VentanaCuenta() {
         initComponents();
     }
@@ -102,8 +94,14 @@ public class VentanaCuenta extends javax.swing.JFrame {
     private void botonCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCalcularActionPerformed
      // para crear un usuario en el text y que aparesca en el menseje cuando le debemos clic boton 
         
-     CuentaAhorro c=new CuentaAhorro(textoNombre.getText(), Float.parseFloat(textoSaldo.getText()));
-     etiquetaResultado.setText(c.toString());
+     CuentaAhorro c;
+        try {
+            c = new CuentaAhorro(textoNombre.getText(), Float.parseFloat(textoSaldo.getText()));
+                 etiquetaResultado.setText(c.toString());
+        } catch (SinFondosException ex) {
+        etiquetaResultado.setText(ex.getMessage());
+        }
+
     }//GEN-LAST:event_botonCalcularActionPerformed
 
     /**

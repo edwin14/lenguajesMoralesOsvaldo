@@ -7,7 +7,7 @@ package Herencia;
 public class CuentaAhorro extends Cuenta{
 
    
-    public CuentaAhorro(String nombre, float saldo) {
+    public CuentaAhorro(String nombre, float saldo) throws SinFondosException {
         super(nombre, saldo);
     }
     

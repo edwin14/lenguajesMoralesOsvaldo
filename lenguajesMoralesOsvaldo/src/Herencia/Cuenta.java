@@ -54,8 +54,7 @@ public abstract class Cuenta {
         this.saldo = saldo;
     }
     
-    
-    
+   
     
     
     public abstract void CrearCuenta();
