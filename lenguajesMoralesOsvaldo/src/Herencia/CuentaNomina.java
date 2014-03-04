@@ -5,6 +5,12 @@ package Herencia;
 
 
 public class CuentaNomina extends Cuenta {
+
+    public CuentaNomina(String nombre, float saldo) {
+        super(nombre, saldo);
+    }
+    
+    
     
     public void CrearCuenta(){
     System.out.println("Tu Cuenta de Nomina fue creada con exito");  

@@ -101,7 +101,7 @@ public class VentanaCuenta extends javax.swing.JFrame {
 
     private void botonCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCalcularActionPerformed
         
-        
+     CuentaAhorro c=new CuentaAhorro(textoNombre.getText(), Float.parseFloat(textoSaldo.getText()));
     }//GEN-LAST:event_botonCalcularActionPerformed
 
     /**

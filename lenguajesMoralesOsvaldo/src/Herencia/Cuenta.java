@@ -5,10 +5,28 @@ package Herencia;
 
 
 public abstract class Cuenta {
+    
+    public Cuenta(String nombre, float saldo) {
+        this.nombre = nombre;
+        this.saldo = saldo;
+    }
+    
+    
     //Aqui se encuentran todos los metodos
     private int id;
     private String nombre;
     private float saldo;
+
+  
+    
+    public String toString(){
+        return "usuario " +nombre+ " cuenta con saldo " +saldo;
+        
+    }
+    
+    
+    
+   
 
     public int getId() {
         return id;
@@ -34,6 +52,9 @@ public abstract class Cuenta {
         Validacion.validarSaldo(saldo);
         this.saldo = saldo;
     }
+    
+    
+    
     
     
     public abstract void CrearCuenta();
