@@ -98,6 +98,8 @@ public class VentanaCuenta extends javax.swing.JFrame {
         try {
             c = new CuentaAhorro(textoNombre.getText(), Float.parseFloat(textoSaldo.getText()));
                  etiquetaResultado.setText(c.toString());
+      // siempre se declara las clases hijos y al ultimo al papa por si no se cumple lo del hijo esta el papa 
+      // para checarlo y ver si se cumple o no
         } catch (SinFondosException ex) {
         etiquetaResultado.setText(ex.getMessage());
         }
