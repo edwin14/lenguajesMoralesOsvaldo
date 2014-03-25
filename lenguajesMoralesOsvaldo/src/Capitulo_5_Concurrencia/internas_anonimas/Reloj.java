@@ -1,4 +1,3 @@
-
 package Capitulo_5_Concurrencia.internas_anonimas;
 
 
@@ -11,6 +10,7 @@ public class Reloj{
                System.out.println("Yo soy el Primer Thread");
            }
        });
+       
        Thread t2=new Thread(new Runnable(){
            public void run(){
              System.out.println("Estoy seguro que este es el Thread t2");   
@@ -20,5 +20,4 @@ public class Reloj{
        t1.start();
        t2.start();
     }
-   
 }
