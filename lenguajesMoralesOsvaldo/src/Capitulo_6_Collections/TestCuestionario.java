@@ -6,7 +6,7 @@ public class TestCuestionario {
      for(Pregunta pregunta: GenerarCuestionario.obtenerCuestionario()){
      System.out.println(pregunta.getTitulo());
      for(Opcion opcion: pregunta.getOpciones()){
-         System.out.println(opcion.getTitulo() + "valor: " + opcion.isValor());
+         System.out.println(opcion.getTitulo() +" valor: "+ opcion.isValor());
         }
       }
     }
