@@ -16,6 +16,9 @@ public class GenerarCuestionario {
                  
         Pregunta p1=new Pregunta(1,"1.-¿Cual es el pais con el mejor sistema educativo?", Opcion1);
         
+        
+        
+        
        Opcion op12=new Opcion("Mexico",false);
        Opcion op22=new Opcion("Corea del Norte",true);
        Opcion op32=new Opcion("Ecuador",false);
@@ -26,9 +29,10 @@ public class GenerarCuestionario {
                  Opcion2.add(op22);
                  Opcion2.add(op32);
                  Opcion2.add(op42);
-                 
-                 
+                        
         Pregunta p2=new Pregunta(2,"2.-¿Cual es el pais que da mas miedo?", Opcion2);
+        
+        
        
     ArrayList<Pregunta> cuestionario=new ArrayList<Pregunta>();
     
